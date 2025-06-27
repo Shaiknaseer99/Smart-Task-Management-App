@@ -17,7 +17,7 @@ export const AuthProvider = ({ children }) => {
   const [error, setError] = useState(null);
 
   // Set up axios defaults
-  axios.defaults.baseURL = 'https://smart-task-management-app-idmu.onrender.com/api';
+  axios.defaults.baseURL = 'https://smart-task-management-app-backend-04u8.onrender.com/api';
 
   // Check for existing token on mount
   useEffect(() => {
