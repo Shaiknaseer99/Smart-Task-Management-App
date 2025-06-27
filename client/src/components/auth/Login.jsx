@@ -73,7 +73,7 @@ const Login = () => {
   };
 
   const handleGoogleLogin = () => {
-    window.location.href = 'https://smart-task-management-app-idmu.onrender.com/api/auth/google';
+    window.location.href = 'https://smart-task-management-app-backend-04u8.onrender.com/api/auth/google';
   };
 
   return (
